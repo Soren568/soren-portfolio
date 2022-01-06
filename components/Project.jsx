@@ -15,7 +15,7 @@ function Project({ project }) {
                 </div>
                 {project.videoPath != "" ? (
                     <div className="aspect-video rounded-b-lg ">
-                        <iframe className='w-full h-full' src={project.videoPath} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className='w-full h-full' src={project.videoPath} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 ) : (
                     <div className="aspect-video  rounded-b-lg">
@@ -28,7 +28,7 @@ function Project({ project }) {
                     <Icon icon={project.icon} className='text-lg text-gray-400' />
                     <p className="font-medium text-lg ">{project.title}</p>
                 </div>
-                <a href={project.ghLink} target="_blank"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a>
+                <a href={project.ghLink} target="_blank" rel="noreferrer"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a>
             </div>
             {
                 hover ? (

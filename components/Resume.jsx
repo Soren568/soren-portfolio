@@ -54,8 +54,8 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                     <div className="px-4 sm:px-6 items-center flex">
                                         <Dialog.Title className="font-semibold text-gray-100 uppercase tracking-widest text-2xl">Resume</Dialog.Title>
                                         <a href="/SorenHeitmannResume.pdf" title="Download Resume" download> <Icon icon="ant-design:file-pdf-outlined" className="ml-4 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
-                                        <a href="https://github.com/Soren568" title="GitHub" target="_blank"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
-                                        <a href="https://www.linkedin.com/in/soren-heitmann/" title="LinkedIn" target="_blank"> <Icon icon="brandico:linkedin" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
+                                        <a href="https://github.com/Soren568" title="GitHub" target="_blank" rel="noreferrer"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
+                                        <a href="https://www.linkedin.com/in/soren-heitmann/" title="LinkedIn" target="_blank" rel="noreferrer"> <Icon icon="brandico:linkedin" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
                                     </div>
                                     <div className="mt-6 relative flex-1 px-4 sm:px-6 ">
                                         <div className="absolute inset-0 pb-6 px-4 sm:px-6 text-gray-200 overflow-y-auto">

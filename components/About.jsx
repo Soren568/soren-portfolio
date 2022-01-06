@@ -68,11 +68,11 @@ const About = ({ aboutIsOpen, setAboutIsOpen }) => {
                                                 </div>
                                                 <div className="mb-8">
                                                     <p className="font-semibold text-gray-100 uppercase tracking-widest text-xl mb-2">Goals</p>
-                                                    <p className="pl-5 text-sm">After becoming versed in MERN, Python, and Java - I'm striving to continue expanding my expertise in those stacks and step into more complex topics such as blockchain, natural language processing, and AI/ML. My goal is to constantly challenge myself as a developer and continue building up a comprehensive understanding of computer science/development topics. To do so I am taking extra courses through Coursera, working on personal projects, and completing Leetcode algorithms daily. </p>
+                                                    <p className="pl-5 text-sm">After becoming versed in MERN, Python, and Java - I am striving to continue expanding my expertise in those stacks and step into more complex topics such as blockchain, natural language processing, and AI/ML. My goal is to constantly challenge myself as a developer and continue building up a comprehensive understanding of computer science/development topics. To do so I am taking extra courses through Coursera, working on personal projects, and completing Leetcode algorithms daily. </p>
                                                 </div>
                                                 <div>
                                                     <p className="font-semibold text-gray-100 uppercase tracking-widest text-xl mb-2">Besides coding</p>
-                                                    <p className="pl-5 text-sm">Having been a rugby player throughout my life, I enjoy staying active and being outdoors as much as I can: whether that's snowboarding, weightlifting, cycling, yoga, or something similar. </p>
+                                                    <p className="pl-5 text-sm">Having been a rugby player throughout my life, I enjoy staying active and being outdoors as much as I can: whether thats snowboarding, weightlifting, cycling, yoga, or something similar. </p>
                                                 </div>
                                             </div>
                                         </div>

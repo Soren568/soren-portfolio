@@ -56,7 +56,7 @@ const Projects = ({ projectsIsOpen, setProjectsIsOpen }) => {
                                     <div className="font-semibold text-gray-100 uppercase tracking-widest text-2xl">
                                         Projects
                                     </div>
-                                    <div className="grid md:grid-cols-2 align-middle justify-evenly overflow-x-auto scrollbar-hide p-10 text-white flex-wrap h-full scroll-snap">
+                                    <div className="grid md:grid-cols-2 justify-evenly overflow-x-auto scrollbar-hide p-10 text-white flex-wrap h-full scroll-snap">
                                         {projectsFolder.projects.map((p, i) => {
                                             return (
                                                 <div className='min-w-[200px] max-w-[550px] mr-10' key={i} >

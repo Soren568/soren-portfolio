@@ -58,7 +58,7 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                         <a href="https://www.linkedin.com/in/soren-heitmann/" title="LinkedIn" target="_blank" rel="noreferrer"> <Icon icon="brandico:linkedin" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
                                     </div>
                                     <div className="mt-6 relative flex-1 px-4 sm:px-6 ">
-                                        <div className="absolute inset-0 pb-6 px-4 sm:px-6 text-gray-200 overflow-y-auto">
+                                        <div className="absolute inset-0 pb-6 px-4 sm:px-6 text-gray-200 overflow-y-auto scrollbar-hide">
                                             <div className="h-auto border-l-4 border-white ml-8 mr-3 flex flex-col items-start ">
                                                 <div className="">
                                                     <Icon icon="bx:bx-radio-circle-marked" className="text-white text-4xl -ml-5" />

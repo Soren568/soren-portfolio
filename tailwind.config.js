@@ -10,6 +10,15 @@ module.exports = {
       'sans': ['Montserrat', ...defaultTheme.fontFamily.sans]
     },
     extend: {
+      backgroundImage: {
+        'flatirons': "url('../assets/img/flatirons.jpg')"
+      },
+      minWidth: {
+        'proj': '300px'
+      },
+      maxWidth: {
+        'proj': '550px'
+      },
       screens: {
         'xs': { 'max': '475px' },
         'sm': { 'max': '768px' }

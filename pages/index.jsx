@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="description" content="Software engineer portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[url('../assets/img/flatirons.jpg')] bg-cover bg-blend-hue min-h-screen">
+      <div className="bg-flatirons bg-cover bg-blend-hue min-h-screen">
         <div className="w-screen h-screen bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
           <div className={resumeIsOpen || projectsIsOpen || aboutIsOpen ? "opacity-0 transition-all ease-linear" : "transition-all ease-linear"}>
             <Hero aboutIsOpen={aboutIsOpen} projectsIsOpen={projectsIsOpen} resumeIsOpen={resumeIsOpen} setAboutIsOpen={setAboutIsOpen} setProjectsIsOpen={setProjectsIsOpen} setResumeIsOpen={setResumeIsOpen} />

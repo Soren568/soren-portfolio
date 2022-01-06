@@ -19,8 +19,14 @@ export default function Home() {
         <meta name="description" content="Software engineer portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-flatirons bg-cover bg-blend-hue min-h-screen">
-        {/* <Image src={flatiron} priority={true} al='background' className='absolute' /> */}
+      <div className="min-h-screen relative">
+        <Image
+          layout="fill"
+          className="object-center object-cover pointer-events-none"
+          src={flatiron}
+          alt="background flatirons"
+          priority={true}
+        />
         <div className="w-screen h-screen bg-black bg-opacity-50 flex flex-col justify-center items-center text-white absolute">
           <div className={resumeIsOpen || projectsIsOpen || aboutIsOpen ? "opacity-0 transition-all ease-linear" : "transition-all ease-linear"}>
             <Hero aboutIsOpen={aboutIsOpen} projectsIsOpen={projectsIsOpen} resumeIsOpen={resumeIsOpen} setAboutIsOpen={setAboutIsOpen} setProjectsIsOpen={setProjectsIsOpen} setResumeIsOpen={setResumeIsOpen} />

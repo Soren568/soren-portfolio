@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'flatirons': "url('../public/flatirons.jpg')"
+        'flatirons': "url('../public/flatirons.png')"
       },
       minWidth: {
         'proj': '300px'

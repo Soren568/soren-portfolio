@@ -59,7 +59,7 @@ const Projects = ({ projectsIsOpen, setProjectsIsOpen }) => {
                                     <div className="flex align-middle justify-evenly overflow-x-auto scrollbar-hide p-10 text-white flex-wrap h-full scroll-snap">
                                         {projectsFolder.projects.map((p, i) => {
                                             return (
-                                                <div className='min-w-[200px] max-w-[500px] ' key={i} >
+                                                <div className='min-w-[200px] max-w-[600px] ' key={i} >
                                                     <Project project={p} />
                                                 </div>
                                             )

@@ -40,7 +40,7 @@
         {
             "title": "SideNotes",
             "description": "A simple book-browsing app using GoogleBooksAPI to pull and render all book info. Includes search by author or title functionality with AJAX response. Utilized flask for the quick deployment and conditional rendering capabilities.",
-            "videoPath": "https://www.youtube-nocookie.com/embed/r7_XrR5_FF4",
+            "videoPath": "https://www.youtube.com/embed/r7_XrR5_FF4",
             "screenshot1": "",
             "screenshot2": "",
             "techs": [

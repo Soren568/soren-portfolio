@@ -52,16 +52,16 @@ const About = ({ aboutIsOpen, setAboutIsOpen }) => {
                                         </button>
                                     </div>
                                 </Transition.Child>
-                                <div className="h-full w-3/4 sm:w-screen xs:w-screen flex flex-col py-6 bg-black bg-opacity-80 shadow-xl overflow-y-auto">
+                                <div className="h-full w-3/4 sm:w-screen xs:w-screen flex flex-col py-6 bg-black bg-opacity-80 shadow-xl overflow-y-auto scrollbar-hide">
                                     <div className="px-4 sm:px-6">
                                         <Dialog.Title className="font-semibold text-gray-100 uppercase tracking-widest text-2xl">About Me</Dialog.Title>
                                     </div>
                                     <div className="mt-6 relative flex-1 px-4 sm:px-6">
                                         <div className="absolute inset-0 px-4 sm:px-6 text-gray-200 flex xs:flex-col">
-                                            <div className="max-w-xs max-h-9 sm:hidden">
+                                            <div className="md:max-w-xs xl:max-w-sm sm:hidden">
                                                 <Image src={climb} alt="pic" className='' priority={true} />
                                             </div>
-                                            <div className="pl-5 xs:pb-10">
+                                            <div className="pl-5 xs:pb-10 ">
                                                 <div className="mb-8">
                                                     <p className="font-semibold text-gray-100 uppercase tracking-widest text-xl mb-2">Why software engineering?</p>
                                                     <p className="pl-5 text-sm">Quickly after finishing my undergrad in Finance and Economics at Boulder I was searching for something more creative, combined with the analytical challenge of being given data and creating a meaningful result. After finishing a bootcamp I can confidently say that software engineering is exactly the role I was looking for and learning the skills to materialize any creative idea is what excites me most.</p>

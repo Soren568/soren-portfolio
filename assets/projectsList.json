@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "title": "Locale",
+            "description": "Locale is a 'nearby-locations' type app that displays recreation/outdoors activities locations pulled from recreation.gov API. Users are given JWTs upon hashed login to authorize any API requests within the application. This project utilizes a noSQL database to store user accounts and any saved locations specific to that user to display when browsing.",
+            "videoPath": "https://www.youtube-nocookie.com/embed/FVmfFJ-1zJ8",
+            "screenshot1": "",
+            "screenshot2": "",
+            "techs": [
+                "React",
+                "MongoDB",
+                "Express",
+                "Node.js",
+                "Google Maps API",
+                "Bcrypt",
+                "JWT",
+                "TailwindCSS"
+            ],
+            "ghLink": "https://github.com/Soren568/Locale-GoogleMapsAPI",
+            "icon": "akar-icons:react-fill"
+        },
+        {
+            "title": "Disqord",
+            "description": "Disqord was a team project using the SpringBoot framework and Tomcat. We used Websockets for message monitoring to imitate Discord's channel/server model on top of basic group/DM. I was responsible for AJAX based user/friend search, managing the SQL data and using JPA for the relational mapping.",
+            "videoPath": "",
+            "screenshot1": "/chatProject.png",
+            "screenshot2": "/chatProject2.png",
+            "techs": [
+                "Java",
+                "SpringMVC",
+                "Websockets",
+                "Bcrypt",
+                "SQL",
+                "Apache Tomcat",
+                "Bootstrap"
+            ],
+            "ghLink": "https://github.com/Sal-Nunez/Disqord",
+            "icon": "cib:java"
+        },
+        {
+            "title": "SideNotes",
+            "description": "A simple book-browsing app using GoogleBooksAPI to pull and render all book info. Includes search by author or title functionality with AJAX response. Utilized flask for the quick deployment and conditional rendering capabilities.",
+            "videoPath": "https://www.youtube-nocookie.com/embed/r7_XrR5_FF4",
+            "screenshot1": "",
+            "screenshot2": "",
+            "techs": [
+                "Python",
+                "Flask / Jinja2",
+                "Google Books API",
+                "AJAX",
+                "Bootstrap"
+            ],
+            "ghLink": "https://github.com/Soren568/SideNotes",
+            "icon": "akar-icons:python-fill"
+        },
+        {
+            "title": "Reddit Clone",
+            "description": "A full CRUD site: users can upvote/downvote other posts, create a post, edit and delete their own post. Users can be 'sent an email' if they forgot their password (not functional in production) with a link to reset. Currently working on deploying through Digital Ocean, with Dokku and Docker. Almost all of the technologies listed were new to me before completing the project and was completed as a hands-on introduction into them. This was a follow-along project with Ben Awad's youtube tutorial. ",
+            "videoPath": "https://www.youtube-nocookie.com/embed/2JIZDRZEGgU",
+            "screenshot1": "",
+            "screenshot2": "",
+            "techs": [
+                "TypeScript",
+                "React",
+                "PostgreSQL",
+                "GraphQL",
+                "URQL/Apollo",
+                "Next.js",
+                "TailwindCSS",
+                "Redis"
+            ],
+            "ghLink": "https://github.com/Soren568/redditClone",
+            "icon": "cib:typescript"
+        }
+    ]
+}

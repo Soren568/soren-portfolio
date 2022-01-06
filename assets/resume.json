@@ -1,0 +1,77 @@
+{
+    "resume": {
+        "technologies": [
+            {
+                "topic": "Languages",
+                "techs": [
+                    "Python",
+                    "JavaScript",
+                    "Java",
+                    "SQL",
+                    "HTML5",
+                    "CSS"
+                ]
+            },
+            {
+                "topic": "Frameworks",
+                "techs": [
+                    "React",
+                    "Next.js",
+                    "Express",
+                    "Node.js",
+                    "Spring",
+                    "Flask/Jinja2",
+                    "Bcrypt",
+                    "JWT",
+                    "TailwindCSS",
+                    "Bootstrap"
+                ]
+            },
+            {
+                "topic": "Databases / Version Control",
+                "techs": [
+                    "MySQL",
+                    "MongoDB",
+                    "Git",
+                    "GitHub"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "place": "Coding Dojo",
+                "date": "2021",
+                "bullets": [
+                    "Full stack coding bootcamp focusing on MERN, Java/Spring, and Python stacks",
+                    "One of two students in my cohort of 30 to earn highest marks on all 3 end of stack exams (\"triple black-belt\")"
+                ]
+            },
+            {
+                "place": "University of Colorado Boulder",
+                "date": "2021",
+                "bullets": [
+                    "B.Sc. Business Administration - Finance, Economics",
+                    "Executive member and captain of CU Mens Rugby team | Rocky Mountain D1A All-Conference Center",
+                    "International Business studies in Sydney, AU and Berlin, DE"
+                ]
+            }
+        ],
+        "work": [
+            {
+                "place": "Liminal Collective",
+                "date": "2019-Present",
+                "bullets": [
+                    "Human performance focused start-up environment with exposure to all business teams and worked under the communications head to support the development of a performance partner and influencer/creator relations program",
+                    "Used RSS feeds/Feedly/Traackr to aggregate data on 25 partners for increased internal organization efficiency and increased public audience for partner content"
+                ]
+            }
+        ],
+        "extra": [
+            {
+                "name": "Algorithms I - Princeton",
+                "date": "Current",
+                "language": "Java"
+            }
+        ]
+    }
+}

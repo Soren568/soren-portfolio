@@ -40,6 +40,7 @@
         "education": [
             {
                 "place": "Coding Dojo",
+                "link": "https://www.codingdojo.com/",
                 "date": "2021",
                 "bullets": [
                     "Full stack coding bootcamp focusing on MERN, Java/Spring, and Python stacks",
@@ -59,6 +60,7 @@
         "work": [
             {
                 "place": "Liminal Collective",
+                "link": "https://www.liminalcollective.co/",
                 "date": "2019-Present",
                 "bullets": [
                     "Human performance focused start-up environment with exposure to all business teams and worked under the communications head to support the development of a performance partner and influencer/creator relations program",
@@ -69,8 +71,14 @@
         "extra": [
             {
                 "name": "Algorithms I - Princeton",
-                "date": "Current",
+                "date": "12/2021",
                 "language": "Java"
+            },
+            {
+                "name": "Object-Oriented Programming in Javascript - Educative",
+                "date": "3/2022",
+                "language": "JavaScript",
+                "file": "/OOPJSCert.pdf"
             }
         ]
     }

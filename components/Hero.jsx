@@ -6,7 +6,7 @@ const Hero = ({ aboutIsOpen, projectsIsOpen, resumeIsOpen, setAboutIsOpen, setPr
     return (
         <div className="border-t border-b border-gray-100 h-60 flex flex-col items-center justify-center mx-auto sm:mx-10 xs:mx-20">
             <h1 className="uppercase font-semibold text-4xl mb-4">Soren Heitmann</h1>
-            <p className="lowercase font-extralight text-sm tracking-wider">full stack software engineer excited by new ideas and projects aiming to improve user experience</p>
+            <p className="lowercase font-extralight text-sm tracking-wider">full stack software engineer eager to contribute to a group that wants to change the world</p>
         </div>
     )
 }

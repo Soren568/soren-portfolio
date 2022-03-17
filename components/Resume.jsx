@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Icon } from '@iconify/react';
 import resumeJson from '../assets/resume.json';
@@ -55,7 +55,8 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                         <Dialog.Title className="font-semibold text-gray-100 uppercase tracking-widest text-2xl">Resume</Dialog.Title>
                                         <a href="/SorenHeitmannResume.pdf" title="Download Resume" download> <Icon icon="ant-design:file-pdf-outlined" className="ml-4 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
                                         <a href="https://github.com/Soren568" title="GitHub" target="_blank" rel="noreferrer"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
-                                        <a href="https://www.linkedin.com/in/soren-heitmann/" title="LinkedIn" target="_blank" rel="noreferrer"> <Icon icon="brandico:linkedin" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
+                                        <a href="https://www.linkedin.com/in/soren-heitmann/" title="LinkedIn" target="_blank" rel="noreferrer"> <Icon icon="akar-icons:linkedin-v1-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
+                                        <a href="https://leetcode.com/soren568/" title="LeetCode" target="_blank" rel="noreferrer"> <Icon icon="cib:leetcode" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /> </a>
                                     </div>
                                     <div className="mt-6 relative flex-1 px-4 sm:px-6 ">
                                         <div className="absolute inset-0 pb-6 px-4 sm:px-6 text-gray-200 overflow-y-auto scrollbar-hide">
@@ -82,7 +83,17 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                                         {resumeJson.resume.education.map((place, i) => {
                                                             return (
                                                                 <div key={i}>
-                                                                    <div><span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span></div>
+                                                                    <div className='flex'>
+                                                                        <div>
+                                                                            <span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span>
+                                                                        </div>
+                                                                        {place.link ?
+                                                                            <a href={place.link} title="LeetCode" target="_blank" rel="noreferrer">
+                                                                                <Icon icon="ci:link" title="website" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" />
+                                                                            </a>
+                                                                            : null}
+                                                                    </div>
+
                                                                     <ul className="font-extralight text-sm list-disc pl-4 mb-3">
                                                                         {place.bullets.map((b, j) =>
                                                                             <li key={j}> {b} </li>
@@ -100,7 +111,16 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                                         {resumeJson.resume.work.map((place, i) => {
                                                             return (
                                                                 <div key={i}>
-                                                                    <div><span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span></div>
+                                                                    <div className='flex'>
+                                                                        <div>
+                                                                            <span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span>
+                                                                        </div>
+                                                                        {place.link ?
+                                                                            <a href={place.link} title="LeetCode" target="_blank" rel="noreferrer">
+                                                                                <Icon icon="ci:link" title="website" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" />
+                                                                            </a>
+                                                                            : null}
+                                                                    </div>
                                                                     <ul className="font-extralight text-sm list-disc pl-4 mb-3">
                                                                         {place.bullets.map((b, j) =>
                                                                             <li key={j}> {b} </li>
@@ -117,8 +137,12 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                                     <div className="pl-10 text-sm">
                                                         {resumeJson.resume.extra.map((item, i) => {
                                                             return (
-                                                                <div key={i}>
-                                                                    <div><span className="font-medium"> {item.name}</span> | <span className="font-light italic">{item.language}</span> | <span className="font-light italic">{item.date}</span> </div>
+                                                                <div key={i} className="flex-row">
+                                                                    <span className="font-medium flex-row"> {item.name}</span> | <span className="font-light italic">{item.language}</span> | <span className="font-light italic">{item.date} </span>
+                                                                    {item.file ? (
+                                                                        <a href={item.file} title="Certificate" download><Icon icon="charm:certificate" className="inline-block ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a>
+                                                                    ) : null
+                                                                    }
                                                                 </div>
                                                             )
                                                         })}

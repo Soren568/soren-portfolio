@@ -4,6 +4,7 @@
             {
                 "topic": "Languages",
                 "techs": [
+                    "Golang",
                     "Python",
                     "JavaScript",
                     "Java",
@@ -16,6 +17,7 @@
                 "topic": "Frameworks",
                 "techs": [
                     "React",
+                    "Vue.js",
                     "Next.js",
                     "Express",
                     "Node.js",
@@ -28,40 +30,56 @@
                 ]
             },
             {
-                "topic": "Databases / Version Control",
+                "topic": "Databases / Version Control / CI/CD",
                 "techs": [
                     "MySQL",
+                    "SQL Workbench/J",
                     "MongoDB",
-                    "Git",
-                    "GitHub"
+                    "AWS Redshift",
+                    "Git/Github",
+                    "Docker",
+                    "AWS CodeBuild",
+                    "AWS CodePipeline"
                 ]
             }
         ],
         "education": [
             {
-                "place": "Coding Dojo",
-                "link": "https://www.codingdojo.com/",
-                "date": "2021",
-                "bullets": [
-                    "Full stack coding bootcamp focusing on MERN, Java/Spring, and Python stacks",
-                    "One of two students in my cohort of 30 to earn highest marks on all 3 end of stack exams (\"triple black-belt\")"
-                ]
-            },
-            {
-                "place": "University of Colorado Boulder",
+                "name": "University of Colorado Boulder",
                 "date": "2021",
                 "bullets": [
                     "B.Sc. Business Administration - Finance, Economics",
                     "Executive member and captain of CU Mens Rugby team | Rocky Mountain D1A All-Conference Center",
                     "International Business studies in Sydney, AU and Berlin, DE"
                 ]
+            },
+            {
+                "name": "Coding Dojo",
+                "link": "https://www.codingdojo.com/",
+                "date": "2021",
+                "bullets": [
+                    "Full stack coding bootcamp focusing on MERN, Java/Spring, and Python stacks",
+                    "One of two students in my cohort of 30 to earn highest marks on all 3 end of stack exams (\"triple black-belt\")"
+                ]
             }
         ],
         "work": [
             {
-                "place": "Liminal Collective",
+                "company": "Ezoic",
+                "link": "https://www.ezoic.com/",
+                "date": "Apr 2021 - current",
+                "position": "Software Engineer",
+                "bullets": [
+                    "Independently developed an internal replacement of a third party video ad player in order to increase revenue stream by an estimated 24%",
+                    "Redesigned VideoJS video player improving UX across 44,000+ customer sites and allowing for increased customization utilizing MySQL for data storage, Vue.js for front-end, and Golang for back-end development",
+                    "Built client facing dashboards allowing for user configuration of product with Vue.js and Golang"
+                ]
+            },
+            {
+                "company": "Liminal Collective",
                 "link": "https://www.liminalcollective.co/",
-                "date": "2019-Present",
+                "date": "2019-2021",
+                "position": "Intern",
                 "bullets": [
                     "Human performance focused start-up environment with exposure to all business teams and worked under the communications head to support the development of a performance partner and influencer/creator relations program",
                     "Used RSS feeds/Feedly/Traackr to aggregate data on 25 partners for increased internal organization efficiency and increased public audience for partner content"

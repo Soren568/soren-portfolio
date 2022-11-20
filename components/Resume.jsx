@@ -80,22 +80,22 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                                     <Icon icon="bx:bx-radio-circle-marked" className="text-white text-4xl -ml-5" />
                                                     <h1 className="font-medium uppercase tracking-widest pl-2">Education</h1>
                                                     <div className="pl-10 ">
-                                                        {resumeJson.resume.education.map((place, i) => {
+                                                        {resumeJson.resume.education.map((institution, i) => {
                                                             return (
                                                                 <div key={i}>
                                                                     <div className='flex'>
                                                                         <div>
-                                                                            <span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span>
+                                                                            <span className="font-semibold"> {institution.name}</span> | <span className="font-light italic">{institution.date}</span>
                                                                         </div>
-                                                                        {place.link ?
-                                                                            <a href={place.link} title="LeetCode" target="_blank" rel="noreferrer">
+                                                                        {institution.link ?
+                                                                            <a href={institution.link} title="Insitution Website" target="_blank" rel="noreferrer">
                                                                                 <Icon icon="ci:link" title="website" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" />
                                                                             </a>
                                                                             : null}
                                                                     </div>
 
                                                                     <ul className="font-extralight text-sm list-disc pl-4 mb-3">
-                                                                        {place.bullets.map((b, j) =>
+                                                                        {institution.bullets.map((b, j) =>
                                                                             <li key={j}> {b} </li>
                                                                         )}
                                                                     </ul>
@@ -108,21 +108,21 @@ const Resume = ({ resumeIsOpen, setResumeIsOpen }) => {
                                                     <Icon icon="bx:bx-radio-circle-marked" className="text-white text-4xl -ml-5" />
                                                     <h1 className="font-medium uppercase tracking-widest pl-2">Work</h1>
                                                     <div className="pl-10">
-                                                        {resumeJson.resume.work.map((place, i) => {
+                                                        {resumeJson.resume.work.map((job, i) => {
                                                             return (
                                                                 <div key={i}>
                                                                     <div className='flex'>
                                                                         <div>
-                                                                            <span className="font-semibold"> {place.place}</span> | <span className="font-light italic">{place.date}</span>
+                                                                            <span className="font-semibold"> {job.company}</span> | <span className="font-light italic">{job.position}</span> | <span className="font-light italic">{job.date}</span>
                                                                         </div>
-                                                                        {place.link ?
-                                                                            <a href={place.link} title="LeetCode" target="_blank" rel="noreferrer">
+                                                                        {job.link ?
+                                                                            <a href={job.link} title="Company Site" target="_blank" rel="noreferrer">
                                                                                 <Icon icon="ci:link" title="website" className="ml-1 text-2xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" />
                                                                             </a>
                                                                             : null}
                                                                     </div>
                                                                     <ul className="font-extralight text-sm list-disc pl-4 mb-3">
-                                                                        {place.bullets.map((b, j) =>
+                                                                        {job.bullets.map((b, j) =>
                                                                             <li key={j}> {b} </li>
                                                                         )}
                                                                     </ul>

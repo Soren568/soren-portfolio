@@ -16,21 +16,23 @@ function Project({ project }) {
                 </div>
                 {project.videoPath != "" ? (
                     <div className="rounded-b-lg aspect-video">
-                        {/* <ReactPlayer url={project.videoPath} className="aspect-video w-full" /> */}
                         <iframe className='w-full h-full' src={project.videoPath} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen playsinline ></iframe>
                     </div>
                 ) : (
-                    <div className="aspect-video  rounded-b-lg">
-                        {hover ? <Image src={project.screenshot1} width={1000} height={520} /> : <Image src={project.screenshot2} width={1000} height={520} />}
+                    <div className="rounded-b-lg">
+                        {hover ? <Image src={project.screenshot2} width={1000} height={520}/> : <Image src={project.screenshot1} width={1000} height={520}/>}
                     </div>
                 )}
             </div>
             <div className="flex justify-between xs:mt-3">
                 <div className='flex space-x-2 items-center'>
-                    <Icon icon={project.icon} className='text-lg text-gray-400' />
+                    <Icon icon={project.icon} className='text-lg text-gray-400'/>
                     <p className="font-medium text-lg ">{project.title}</p>
                 </div>
-                <a href={project.ghLink} target="_blank" rel="noreferrer"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a>
+                <div className='flex items-end'>
+                    {project.deploy ? <a href={project.deploy} target="_blank" rel="noreferrer"> <Icon icon="ci:link" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a> : ""} 
+                    <a href={project.ghLink} target="_blank" rel="noreferrer"> <Icon icon="akar-icons:github-outline-fill" className="ml-1 text-3xl text-gray-400 hover:text-white hover:bg-gray-700 p-1 rounded-md cursor-pointer transition-colors ease-linear" /></a>
+                </div>
             </div>
             <div className='min-w-full'>
 

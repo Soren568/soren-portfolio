@@ -68,11 +68,11 @@ const About = ({ aboutIsOpen, setAboutIsOpen }) => {
                                                 </div>
                                                 <div className="mb-8">
                                                     <p className="font-semibold text-gray-100 uppercase tracking-widest text-xl mb-2">Goals</p>
-                                                    <p className="pl-5 text-sm">After becoming versed in MERN, Python, and Java - I am striving to continue expanding my expertise in those stacks and reinforcing a comprehensive understanding of computer science/development topics in general. To do so I am taking extra courses through educative.io, working on personal projects, and completing Leetcode algorithms daily. I hope to eventually contribute to innovative technologies in a realm such as ML/AI/NLP, BMI`&apos;`s, blockchain, AR/VR, or global security.</p>
+                                                    <p className="pl-5 text-sm">After becoming versed in MERN, Python, and Java - I am striving to continue expanding my expertise in those stacks and reinforcing a comprehensive understanding of computer science/development topics in general. To do so I am taking extra courses through educative.io, working on personal projects, and completing Leetcode algorithms daily. I hope to eventually contribute to innovative technologies in a realm such as ML/AI/NLP, BMI&apos;s, blockchain, AR/VR, or global security.</p>
                                                 </div>
                                                 <div>
                                                     <p className="font-semibold text-gray-100 uppercase tracking-widest text-xl mb-2">Besides coding</p>
-                                                    <p className="pl-5 text-sm">Having been an athlete throughout my life (mostly rugby through college), I enjoy staying active and being outdoors when I`&apos;`m not coding: whether thats skiing, weightlifting, cycling, yoga, swimming, or something similar.  </p>
+                                                    <p className="pl-5 text-sm">Having been an athlete throughout my life (mostly rugby through college), I enjoy staying active and being outdoors when I&apos;m not coding: whether thats skiing, weightlifting, cycling, yoga, swimming, or something similar.  </p>
                                                 </div>
                                             </div>
                                         </div>

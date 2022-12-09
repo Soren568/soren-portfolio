@@ -20,6 +20,22 @@
             "icon": "akar-icons:react-fill"
         },
         {
+            "title": "Dataviz",
+            "description": "Front end focused site to visualize various graph traversal and sorting algorithms while experimenting with 3D graphics",
+            "videoPath": "",
+            "screenshot1": "/dataviz1.png",
+            "screenshot2": "/dataviz2.png",
+            "techs": [
+                "Next.js",
+                "React",
+                "ThreeJS",
+                "TailwindCSS"
+            ],
+            "ghLink": "https://github.com/Soren568/dataviz",
+            "deploy": "https://dataviz-one.vercel.app/",
+            "icon": "akar-icons:react-fill"
+        },
+        {
             "title": "Disqord",
             "description": "Disqord was a team project using the SpringBoot framework and Tomcat. We used Websockets for message monitoring to imitate Discord's channel/server model on top of basic group/DM. I was responsible for AJAX based user/friend search, managing the SQL data and using JPA for the relational mapping.",
             "videoPath": "",
@@ -52,25 +68,6 @@
             ],
             "ghLink": "https://github.com/Soren568/SideNotes",
             "icon": "akar-icons:python-fill"
-        },
-        {
-            "title": "Reddit Clone",
-            "description": "A full CRUD site: users can upvote/downvote other posts, create a post, edit and delete their own post. Users can be 'sent an email' if they forgot their password (not functional in production) with a link to reset. Currently working on deploying through Digital Ocean, with Dokku and Docker. Almost all of the technologies listed were new to me before completing the project and was completed as a hands-on introduction into them. This was a follow-along project with Ben Awad's youtube tutorial. ",
-            "videoPath": "https://www.youtube-nocookie.com/embed/2JIZDRZEGgU",
-            "screenshot1": "",
-            "screenshot2": "",
-            "techs": [
-                "TypeScript",
-                "React",
-                "PostgreSQL",
-                "GraphQL",
-                "URQL/Apollo",
-                "Next.js",
-                "TailwindCSS",
-                "Redis"
-            ],
-            "ghLink": "https://github.com/Soren568/redditClone",
-            "icon": "cib:typescript"
         }
     ]
 }
